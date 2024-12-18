@@ -74,3 +74,69 @@ main h1 {
     text-align: center;
     margin-top: 50px;
 }
+main .div_after_h1 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(2, 20px);
+}
+main .div_after_h1 .main_gallery:nth-child(1) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row: 2;
+}
+main .div_after_h1 .main_gallery img {
+    margin-bottom: 3px;
+}
+main .div_after_h1 .main_gallery .span_gallery {
+    color: rgba(227, 111, 45, 1);
+    font-size: 10px;
+    font-weight: 500;
+}
+main .div_after_h1 .main_gallery .span_special_gallery {
+    color: rgba(0, 0, 0, 1);
+    font-size: 17px;
+    font-weight: 800;
+}
+main .div_after_h1 .main_nav:nth-child(2) {
+    grid-column-start: 6;
+    grid-column-end: 10;
+    grid-row: 2;
+}
+main .div_after_h1 .main_nav .main_btn_container {
+    margin-left: 20px;
+}
+main .div_after_h1 .main_nav .main_nav_allBtn {
+    color: rgba(227, 111, 45, 1);
+    font-size: 10.16px;
+    font-weight: 500;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 30px;
+}
+main .div_after_h1 .main_nav .main_nav_buttons {
+    color: rgba(0, 0, 0, 1);
+    font-size: 10.16px;
+    font-weight: 500;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+main .div_after_h1 .main_nav .line_container {
+    position: relative;
+    margin-top: 5px;
+}
+main .div_after_h1 .main_nav .line_container .thinLine {
+    width: 85%;
+    height: 1px;
+    background-color: #ccc; /* Сірий колір */
+}
+main .div_after_h1 .main_nav .line_container .boldLine {
+    position: absolute;
+    width: 25px; /* Довжина товстої лінії */
+    height: 1px; /* Товщина лінії */
+    background-color: black; /* Колір лінії */
+    top: 13px; /* Піднімає лінію трохи вгору */
+    left: 0; /* Початок під "All" */
+    margin-left: 20px;
+}
