@@ -1,0 +1,21 @@
+{
+  "name": "art-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitalii-khrypko/art-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitalii-khrypko/art-page/issues"
+  },
+  "homepage": "https://github.com/vitalii-khrypko/art-page#readme",
+  "description": "",
+  "dependencies": {
+  }
+}
