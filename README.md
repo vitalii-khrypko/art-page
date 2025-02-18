@@ -1,7 +1,6 @@
 # Art Page
 
-Art Page is a static, fully responsive web page designed to showcase artwork or creative content. The project is built using HTML and CSS, focusing on clean design and modern layout. The page is optimized for all screen sizes, ensuring a smooth experience on both desktop and mobile devices.
-
+Art Page is a static, fully responsive web page designed to showcase artwork or creative content. The project is built using HTML and CSS, focusing on clean design and modern layout.
 ## Technologies
 - **HTML5** - for the structure of the page.
 - **CSS3** - for styling the interface (including responsive design).
